@@ -162,18 +162,18 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Carattere';
 	text-transform: uppercase;
-	color: rgb(255, 255, 255);
+	color: #ddd;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 15px;
 	padding: 5px 0;
 	border: 2px solid transparent;
 	letter-spacing: 0.5px;
 	margin: 10px 15px 0 15px;
 }
 
-/*#menu.navbar-default .navbar-nav > li > a:hover {
+#menu.navbar-default .navbar-nav > li > a:hover {
 	color: #6fdbff;
-}*/
+}
 .on {
 	background-color: #262626 !important;
 	padding: 0 !important;
@@ -255,7 +255,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-weight: 600;
 }
 .intro p {
-	color: rgb(252, 142, 142);
+	color: rgb(254, 254, 254);
 	font-size: 32px;
 	font-weight: 300;
 	margin-top: 10px;
