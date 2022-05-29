@@ -143,7 +143,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	border-color: rgba(231, 231, 231, 0);
 }
 #menu a.navbar-brand {
-	font-family: 'Charmonman', cursive;
+	font-family: 'Charmonman';
 	font-size: 36px;
 	color: #6fdbff;
 	font-weight: 700;
@@ -230,7 +230,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: rgba(0,0,0,0.4);
 }
 .intro h1 {
-	font-family: 'Charmonman', cursive;
+	font-family: 'Lucida Handwriting', cursive;
 	color: #fff;
 	font-size: 10em;
 	font-weight: 700;
