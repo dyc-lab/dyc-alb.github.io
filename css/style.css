@@ -143,7 +143,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	border-color: rgba(231, 231, 231, 0);
 }
 #menu a.navbar-brand {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Charmonman', cursive;
 	font-size: 36px;
 	color: #6fdbff;
 	font-weight: 700;
@@ -199,7 +199,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .btn-custom {
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #72a411;
+	background-color: #00bfff;
 	border: 0;
 	padding: 14px 20px;
 	margin: 0;
@@ -212,14 +212,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
-	background-color: #628d0f;
+	background-color: #00bfff;
 }
 /* Header Section */
 .intro {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) no-repeat center center;
+	background: url(../img/viral_abs_intro.jpg) no-repeat center center;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -230,7 +230,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: rgba(0,0,0,0.4);
 }
 .intro h1 {
-	font-family: 'Dancing Script', cursive;;
+	font-family: 'Charmonman', cursive;
 	color: #fff;
 	font-size: 10em;
 	font-weight: 700;
@@ -238,7 +238,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 10px;
 }
 .intro span {
-	color: #a7c44c;
+	color: #1fc7ff;
 	font-weight: 600;
 }
 .intro p {
@@ -294,7 +294,7 @@ header .intro-text {
 }
 #restaurant-menu img {
 	width: 300px;
-	box-shadow: 15px 0 #a7c44c;
+	box-shadow: 15px 0 #00bfff;
 }
 #restaurant-menu h3 {
 	padding: 10px 0;
