@@ -11,6 +11,7 @@ body, html {
 /*margin: top right bottom left (position)*/
 /*margin: top right bottom left (position)*/
 h2 {
+	font-family: 'Ubuntu', sans-serif;
 	margin: 0 0 20px 0;
 	font-weight: 500;
 	font-size: 34px;
@@ -45,6 +46,7 @@ dl {
 dl dt {
     /*background:#5f9be3;*/
     /*color:#fff;*/
+	font-family: 'Ubuntu', sans-serif;
     float:left; 
     font-weight:normal;
     margin-right:10px; 
@@ -54,6 +56,7 @@ dl dt {
 }
  
 dl dd {
+	font-family: 'Lora', sans-serif;
     margin:2px 0; 
     padding:5px 0;
 	font-size: 18px;	
@@ -241,7 +244,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro h1 {
 	font-family: 'Carattere, Damion';
-	color: rgb(255, 120, 120);
+	color: rgb(255, 255, 255);
 	font-size: 10em;
 	font-weight: 600;
 	margin-top: 0;
