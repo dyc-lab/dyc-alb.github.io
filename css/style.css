@@ -1,17 +1,13 @@
-/*webpage font*/
 body, html {
-	font-family: 'Fasthand', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: rgb(89, 88, 88);
+	color: #777;
 	font-weight: 300;
 	width: 100% !important;
 	height: 100% !important;
 }
-/*margin: top right bottom left (position)*/
-/*margin: top right bottom left (position)*/
 h2 {
-	font-family: 'Ubuntu', sans-serif;
 	margin: 0 0 20px 0;
 	font-weight: 500;
 	font-size: 34px;
@@ -46,7 +42,6 @@ dl {
 dl dt {
     /*background:#5f9be3;*/
     /*color:#fff;*/
-	font-family: 'Ubuntu', sans-serif;
     float:left; 
     font-weight:normal;
     margin-right:10px; 
@@ -56,7 +51,6 @@ dl dt {
 }
  
 dl dd {
-	font-family: 'Lora', sans-serif;
     margin:2px 0; 
     padding:5px 0;
 	font-size: 18px;	
@@ -139,8 +133,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
-
-
 /* Navigation */
 #menu {
 	padding: 20px;
@@ -150,17 +142,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-color: rgba(248, 248, 248, 0);
 	border-color: rgba(231, 231, 231, 0);
 }
-/* top-left title */
 #menu a.navbar-brand {
-	font-family: 'Charm, Dancing Script';
+	font-family: 'Dancing Script', cursive;
 	font-size: 36px;
 	color: #6fdbff;
 	font-weight: 700;
 	letter-spacing: 1px;
 }
-/* top-right choise */
 #menu.navbar-default .navbar-nav > li > a {
-	font-family: 'Charm, Dancing Script';
 	text-transform: uppercase;
 	color: #ddd;
 	font-weight: 500;
@@ -170,7 +159,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	letter-spacing: 0.5px;
 	margin: 10px 15px 0 15px;
 }
-
 #menu.navbar-default .navbar-nav > li > a:hover {
 	color: #6fdbff;
 }
@@ -211,28 +199,27 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .btn-custom {
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #41c2ed;
+	background-color: #72a411;
 	border: 0;
-	padding: 20px 24px;
+	padding: 14px 20px;
 	margin: 0;
 	font-size: 16px;
-	font-weight: 600;
-	letter-spacing: 1px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
 	border-radius: 0;
 	margin-top: 20px;
 	transition: all 0.5s;
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
-	background-color: #6fdbff;
+	background-color: #628d0f;
 }
-
 /* Header Section */
 .intro {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/viral_abs_intro.jpg) no-repeat center center;
+	background: url(../img/intro-bg.jpg) no-repeat center center;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -243,19 +230,19 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: rgba(0,0,0,0.4);
 }
 .intro h1 {
-	font-family: 'Charm, Dancing Script';
-	color: rgb(255, 255, 255);
+	font-family: 'Dancing Script', cursive;;
+	color: #fff;
 	font-size: 10em;
-	font-weight: 600;
+	font-weight: 700;
 	margin-top: 0;
 	margin-bottom: 10px;
 }
 .intro span {
-	color: #6fdbff;
+	color: #a7c44c;
 	font-weight: 600;
 }
 .intro p {
-	color: rgb(254, 254, 254);
+	color: #fff;
 	font-size: 32px;
 	font-weight: 300;
 	margin-top: 10px;
@@ -294,7 +281,6 @@ header .intro-text {
 	line-height: 24px;
 	margin: 15px 0 30px;
 }
-
 /* Menu Section */
 #restaurant-menu {
 	padding: 0 0 60px 0;
@@ -308,7 +294,7 @@ header .intro-text {
 }
 #restaurant-menu img {
 	width: 300px;
-	box-shadow: 15px 0 #6fdbff;
+	box-shadow: 15px 0 #a7c44c;
 }
 #restaurant-menu h3 {
 	padding: 10px 0;
@@ -525,12 +511,12 @@ ol.type li a:hover {
 #call-reservation {
 	padding: 90px 0;
 	color: #fff;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8eb640+50,779936+100 */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6fdbff+50,779936+100 */
 	background: rgb(142,182,64); /* Old browsers */
 	background: -moz-linear-gradient(top, rgba(142,182,64,1) 50%, rgba(119,153,54,1) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(142,182,64,1) 50%, rgba(119,153,54,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(142,182,64,1) 50%, rgba(119,153,54,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', endColorstr='#779936', GradientType=0 ); /* IE6-9 */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6fdbff', endColorstr='#779936', GradientType=0 ); /* IE6-9 */
 }
 #call-reservation .overlay {
 	padding: 80px 0;
@@ -632,7 +618,7 @@ color: #777;
 	padding: 50px 0 0 0;
 }
 #footer h3 {
-	color: #8eb640;
+	color: #6fdbff;
 	font-weight: 400;
 	font-size: 18px;
 	text-transform: uppercase;
@@ -646,7 +632,7 @@ color: #777;
 	background: -moz-linear-gradient(top, rgba(119,153,54,1) 0%, rgba(142,182,64,1) 50%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(119,153,54,1) 0%, rgba(142,182,64,1) 50%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(119,153,54,1) 0%, rgba(142,182,64,1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', endColorstr='#8eb640', GradientType=0 ); /* IE6-9 */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', endColorstr='#6fdbff', GradientType=0 ); /* IE6-9 */
 }
 #footer .social {
 	margin: 20px 0 30px 0;
